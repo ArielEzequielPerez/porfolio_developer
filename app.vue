@@ -6,6 +6,8 @@ import Skill from "@/component/Skill.vue";
 import Project from "@/component/Project.vue";
 import Contact from "@/component/Contact.vue";
 import Footer from "@/component/Footer.vue";
+import Experience from "./component/Experience.vue";
+import Education from "./component/Education.vue";
 </script>
 
 <template>
@@ -18,6 +20,8 @@ import Footer from "@/component/Footer.vue";
       <About />
       <Skill />
       <Project/>
+      <Experience/>
+      <Education/>
       <Contact />
     </main>
     <footer>
