@@ -3,7 +3,10 @@
 export default defineNuxtConfig({
   app:{
     head:{
-      title: "Porfolio",      
+      title: "Porfolio",
+      link: [
+        { rel: 'icon', type: 'image/png', href: '/dev_favicon.svg' }
+      ]
     }
   },
   compatibilityDate: "2025-05-15",
@@ -26,4 +29,5 @@ export default defineNuxtConfig({
     autoImport: true,
     defaultConfig: true,
   },
+  
 });

@@ -20,7 +20,7 @@
             <h3 class="text-xl font-semibold mb-2 text-black">
               {{ project.title }}
             </h3>
-            <p class="text-gray-600 mb-4">{{ project.description }}</p>
+            <p class="text-gray-600 mb-4" v-html="project.description"></p>
             <div class="flex flex-wrap gap-2 mb-4">
               <span v-for="(tech, techIndex) in project.technologies" :key="techIndex"
                 class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm">
@@ -93,5 +93,13 @@ const projects = [
     demo: "https://iridescent-seahorse-69c2bf.netlify.app/",
     link: "https://github.com/ArielEzequielPerez/GuitarLA",
   },
+  {
+    title: "Api-pokemon",
+    description: "API REST construida con <strong>Laravel</strong> para buscar y obtener detalles de Pokémon usando la <a href='https://pokeapi.co/' target='_blank'><strong>PokeApi</strong></a>. Para despues consumirla en un frontend.",
+    technologies: ["Php", "laravel","Laravel Sail", "redis", "Docker", "Sail", "Composer", "Swagger", "Test"],
+    image: "/api-pokemon_swagger.png",
+    demo: "",
+    link: "https://github.com/ArielEzequielPerez/challenge_pokemon_api",
+  }
 ];
 </script>
