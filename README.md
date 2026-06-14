@@ -64,7 +64,5 @@ El proyecto estará disponible en `http://localhost:4000`.
 
 ## 🌐 Enlaces
 
-- **Demo en Producción**: [Enlace aquí](#)
-- **Contacto**: [ariel.perez@example.com](mailto:ariel.perez@example.com)
-
+- **Demo en Producción**: [Enlace aquí](https://porfolio-ariel-perez.netlify.app/)
 ---
