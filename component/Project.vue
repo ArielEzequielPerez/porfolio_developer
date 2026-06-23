@@ -98,7 +98,7 @@ const projects = [
     description: "API REST construida con <strong>Laravel</strong> para buscar y obtener detalles de Pokémon usando la <a href='https://pokeapi.co/' target='_blank'><strong>PokeApi</strong></a>. Para despues consumirla en un frontend.",
     technologies: ["Php", "laravel","Laravel Sail", "redis", "Docker", "Sail", "Composer", "Swagger", "Test"],
     image: "/api-pokemon_swagger.png",
-    demo: "",
+    demo: "https://challengepokemonapi-production.up.railway.app/api/documentation#/Pokemon",
     link: "https://github.com/ArielEzequielPerez/challenge_pokemon_api",
   }
 ];

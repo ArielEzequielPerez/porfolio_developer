@@ -50,8 +50,6 @@
             </div>
           </div>
         </div>
-
-        <!-- Formulario de contacto con FormKit -->
         <div class="bg-white rounded-lg shadow-lg p-6">
           <h3 class="text-black text-xl font-semibold mb-6">Envíame un mensaje</h3>
           <FormKit type="form" @submit="handleSubmit" :actions="false" #default="{ state: { valid } }">
@@ -89,11 +87,8 @@
                 ? 'bg-emerald-600 hover:bg-emerald-700 text-white'
                 : 'bg-gray-300 text-gray-500 cursor-not-allowed'
             ]">
-              <svg v-if="!isSubmitting" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
-              </svg>
-              <span>{{ isSubmitting ? 'Enviando...' : 'Enviar mensaje' }}</span>
+              
+              <span>{{ isSubmitting ? 'Enviando...' : 'Enviar' }}</span>
             </button>
           </FormKit>
         </div>
